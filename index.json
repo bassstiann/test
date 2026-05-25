@@ -13,8 +13,8 @@
     "languages": ["ES"],
     "url": "aHR0cHM6Ly9ueWFhLnNp",
     "icon": "https://nyaa.si/static/favicon.png",
-    "update": "https://example.com/index.json",
-    "code": "https://example.com/nyaaesdubv2.js",
+    "update": "https://raw.githubusercontent.com/bassstiann/test/main/index.json",
+    "code": "https://raw.githubusercontent.com/bassstiann/test/main/nyaaesdubv2.js",
     "options": {
       "baseUrl": {
         "type": "string",
