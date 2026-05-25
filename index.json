@@ -1,0 +1,51 @@
+[
+  {
+    "manifestVersion": 2,
+    "deprecated": false,
+    "name": "Nyaa Español Dub v2",
+    "id": "nyaaesdubv2",
+    "version": "2.0.0",
+    "type": "torrent",
+    "accuracy": "medium",
+    "updatePeers": false,
+    "ratio": 0,
+    "media": "dub",
+    "languages": ["ES"],
+    "url": "aHR0cHM6Ly9ueWFhLnNp",
+    "icon": "https://nyaa.si/static/favicon.png",
+    "update": "https://example.com/index.json",
+    "code": "https://example.com/nyaaesdubv2.js",
+    "options": {
+      "baseUrl": {
+        "type": "string",
+        "description": "Dominio base de Nyaa.",
+        "default": "https://nyaa.si"
+      },
+      "preferredSpanish": {
+        "type": "string",
+        "description": "Preferencia de doblaje: latino, castellano o any.",
+        "default": "latino"
+      },
+      "requiredKeywords": {
+        "type": "string",
+        "description": "Palabras extra requeridas, separadas por comas.",
+        "default": "dub,dual audio,multi-audio"
+      },
+      "rejectKeywords": {
+        "type": "string",
+        "description": "Palabras a excluir, separadas por comas.",
+        "default": "raw,sub only,subs only,softsub"
+      },
+      "category": {
+        "type": "string",
+        "description": "Categoría de Nyaa para la búsqueda.",
+        "default": "0_0"
+      },
+      "maxResults": {
+        "type": "number",
+        "description": "Máximo de resultados devueltos.",
+        "default": 20
+      }
+    }
+  }
+]
